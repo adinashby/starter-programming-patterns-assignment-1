@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 class Assignment1Tests {
 
 	@Test
-	void isSubsequenceTest1()  {
+	void findLongestWordTest1()  {
 		String s = "abpcplea";
 		List<String> dictionary = Arrays.asList(new String[] {"ale", "apple", "monkey", "plea"});
 		
@@ -25,7 +25,7 @@ class Assignment1Tests {
 	}
 	
 	@Test
-	void isSubsequenceTest2()  {
+	void findLongestWordTest2()  {
 		String s = "abpcplea";
 		List<String> dictionary = Arrays.asList(new String[] {"a","b","c"});
 		
